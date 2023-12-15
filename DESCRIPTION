@@ -1,0 +1,12 @@
+Package: analyzefastq
+Title: Analyzing FASTQ files
+Version: 0.0.1.0000
+Authors@R: 
+    person("Mario", "Castillo", , "mario.castillog@estudiante.uam.es", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package includes several functions to analyze a FASTQ file, such as calculating quality scores or GC content for the sequences in the FASTQ file.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
