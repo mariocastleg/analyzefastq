@@ -3,6 +3,6 @@
 export(GC_content)
 export(count_GC)
 export(cuartil)
-export(fastq_read)
+export(read_fastq)
 export(reads_length)
 export(scoring)

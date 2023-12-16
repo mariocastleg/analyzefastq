@@ -5,7 +5,7 @@
 #' @param file Input FASTQ file
 #' @return A dataframe with 2 columns: sequences and scores
 #'@export
-fastq_read<-function(file){   
+read_fastq<-function(file){   
   archivo<-readLines(file)
   sequences<-archivo[seq(2,length(archivo),4)]
   score<-scores<-archivo[seq(4,length(archivo),4)]
